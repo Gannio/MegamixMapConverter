@@ -1,6 +1,17 @@
 # MegamixMapConverter
 A tool for converting vgmap layouts of Mega Man 1-6, 9, and 10 to Megamix-style rooms, utilizing pre-existing tilesets. Particularly, those by Revned.
 
+Features:
+* Creates a room in GMS containing all tiles from the level, using a base tileset in megamix rather than needing to auto-generate one from the map itself.
+  * Even if it's the wrong palette, the tool will conform the level to the tileset's palette in the creation process.
+* Places an auto-tiler ready to be used to set collision in the level (sometimes buggy if the first 'screen' isn't a black void on the image)
+* Sets all screen boundaries and vertical scrolling borders (horizontal scrolling with stops not set due to having no easy way to determine).
+* Moves defaultspawn to the proper spawn point.
+* Grants a 'score' for what percentage of tiles the generator was able to properly identify on the map (A sorted score for 1.0 is at the root of this project).
+* 8x8 tile mode.
+* Auto-inserts music from most stages into the room CC
+* Auto-sets NES and Wii Modes (Based on the image height/file name)
+
 Arguments:
 * -i (--individualMode): Choose a specific file in maps to create a room from. Default will create *all* rooms not already in the rooms folder.
 * -e (--exactTileCheck): Do not estimate colors when checking the simplified map to the tileset.
