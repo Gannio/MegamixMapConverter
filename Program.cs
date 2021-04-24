@@ -24,6 +24,7 @@ namespace MegamixMapConverter
         static bool singleThreaded = false;
         static bool skipMega = false;
         static bool skipBorders = false;
+        static int tsaValue = 16;
         static void Main(string[] args)
         {
             bool directoryFault = false;
@@ -85,7 +86,7 @@ namespace MegamixMapConverter
                             indivMode = true;
                             break;
                         case "-e":
-                        case "-exactTileCheck":
+                        case "--exactTileCheck":
                             estimateColors = false;
                             break;
                         case "-o":
@@ -93,21 +94,26 @@ namespace MegamixMapConverter
                             overwriteExisting = true;
                             break;
                         case "-n":
-                        case "-namesExact":
+                        case "--namesExact":
                             noNameFixes = true;
                             break;
                         case "-s":
-                        case "-singleThread":
+                        case "--singleThread":
                             singleThreaded = true;
                             break;
                         case "-m":
-                        case "-skipMega":
+                        case "--skipMega":
                             skipMega = true;
                             break;
                         case "-b":
-                        case "-skipBorders":
+                        case "--skipBorders":
                             skipBorders = true;
                             break;
+                        case "-h":
+                        case "--halfTiles":
+                            Console.WriteLine("Note: Half-tile currently requires a modified auto-tiler for it to not be laggy!");
+                            tsaValue = 8;//skipBorders = true;
+                        break;
                     }
                 }
 
@@ -401,14 +407,7 @@ namespace MegamixMapConverter
             Bitmap tileset = Bitmap.FromFile(fileCheck) as Bitmap;
 
 
-            int tsaValue = 16;
-            /*Console.WriteLine("TSA value of 8? y/n");
-
-            if (Console.ReadLine() == "y")
-            {
-                tsaValue = 8;
-            }*/
-
+            
 
 
             if (map.PixelFormat == System.Drawing.Imaging.PixelFormat.Format8bppIndexed || map.PixelFormat == System.Drawing.Imaging.PixelFormat.Format4bppIndexed || map.PixelFormat == System.Drawing.Imaging.PixelFormat.Format1bppIndexed)
@@ -786,7 +785,7 @@ namespace MegamixMapConverter
                             }
 
                         }
-                        if (gotTile == false)
+                        if (gotTile == false && (tsaValue == 16 || (i + 16 < map.Width && j+16 < map.Height)))//!IsBlackTile(map, i, j, 16)))
                         {
                             bool isBorderTile = false;
                             for (int k = 0; k < myBorderTiles.Width; k += 16)
