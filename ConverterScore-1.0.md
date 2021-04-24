@@ -50,7 +50,7 @@ MegaMan10-NitroMan|4965/5344|92.91%|
 MegaManII-DrWily-Level2|3402/3664|92.85%|
 MegaManIV-Wily'sCastle-Level4|1434/1551|92.46%|Boss Rush broken
 MegaMan9-MagmaMan|3444/3728|92.38%|
-MegaManIII-Wiley'sCastle-Level2|2117/2294|92.28%|
+MegaManIII-Wiley'sCastle-Level2|2117/2294|92.28%|Score may improve in 8x8 mode.
 MegaMan9-GalaxyMan|5100/5533|92.17%|
 MegaMan9-ConcreteMan|3335/3626|91.97%|
 MegaMan10-ChillMan|4487/4880|91.95%|
@@ -66,7 +66,7 @@ MegaManIII-Wiley'sCastle-Level4|3773/4214|89.53%|Couldn't find MM, Boss Rush bro
 MegaManII-QuickMan|5132/5740|89.41%|
 MegaManIII-MagnetMan|4467/5032|88.77%|
 MegaMan10-PumpMan|4606/5190|88.75%|
-MegaManIII-Wiley'sCastle-Level3|2528/2860|88.39%|
+MegaManIII-Wiley'sCastle-Level3|2528/2860|88.39%|Score may improve in 8x8 mode.
 MegaManIV-DrCossack'sCitadel-Level4|4191/4742|88.38%|
 MegaMan9-WilyCastle-Stage4|3315/3753|88.33%|
 MegaManIII-SparkMan|4234/4801|88.19%|
@@ -108,9 +108,9 @@ MegaManIV-ToadMan|2541/4677|54.33%|Couldn't find MM
 MegaManII-DrWily-Level6|1151/2190|52.56%|
 MegaManIII-Wiley'sCastle-Level5|224/438|51.14%|
 MegaManII-DrWily-Level5|1155/2459|46.97%|
-MegaManV-Wily'sCastle-Level4|861/2566|33.55%|Boss rush very broken, requires multiple tilesets.
-MegaManV-Wily'sCastle-Level3|907/3186|28.47%|
-MegaManIII-SnakeMan|1190/6300|18.89%|
+MegaManV-Wily'sCastle-Level4|861/2566|33.55%|
+MegaManV-Wily'sCastle-Level3|907/3186|28.47%|Boss rush very broken, requires multiple tilesets.
+MegaManIII-SnakeMan|1190/6300|18.89%|Score may be due to lack of small snake body tiles due to Megamix gimmick.
 MegaManIV-DiveMan|1042/6771|15.39%|
 MegaManIII-DocRobot-ShadowManRevisited|390/5834|6.68%|Score due to lack of Shadow Man tiles in Doc tileset.
 
