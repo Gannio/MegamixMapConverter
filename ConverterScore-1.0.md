@@ -115,12 +115,12 @@ MegaManIV-DiveMan|1042/6771|15.39%|
 MegaManIII-DocRobot-ShadowManRevisited|390/5834|6.68%|Score due to lack of Shadow Man tiles in Doc tileset.
 
 Failed tilesets (Mainly due to lack of tileset for the name):
-*MegaMan10-EndlessAttack
-*MegaMan10-SpecialStage1
-*MegaMan10-SpecialStage2
-*MegaMan10-SpecialStage3
-*MegaMan9-EndlessAttack
-*MegaMan9-SpecialStage
-*MegaManIII-BreakMan
-*MegaManIII-DocRobot-GeminiManRevisited
-*MegaManIII-DocRobot-SparkManRevisited
+* MegaMan10-EndlessAttack
+* MegaMan10-SpecialStage1
+* MegaMan10-SpecialStage2
+* MegaMan10-SpecialStage3
+* MegaMan9-EndlessAttack
+* MegaMan9-SpecialStage
+* MegaManIII-BreakMan
+* MegaManIII-DocRobot-GeminiManRevisited
+* MegaManIII-DocRobot-SparkManRevisited
