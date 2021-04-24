@@ -48,7 +48,7 @@ MegaManVI-MrX'sFortress-Level3|3035/3258|93.16%|
 MegaManVI-MrX'sFortress-Level1|3775/4053|93.14%|
 MegaMan10-NitroMan|4965/5344|92.91%|
 MegaManII-DrWily-Level2|3402/3664|92.85%|
-MegaManIV-Wily'sCastle-Level4|1434/1551|92.46%|
+MegaManIV-Wily'sCastle-Level4|1434/1551|92.46%|Boss Rush broken
 MegaMan9-MagmaMan|3444/3728|92.38%|
 MegaManIII-Wiley'sCastle-Level2|2117/2294|92.28%|
 MegaMan9-GalaxyMan|5100/5533|92.17%|
@@ -62,7 +62,7 @@ MegaMan10-WilyCastle-Stage5|2555/2822|90.54%|
 MegaMan10-SheepMan|5662/6290|90.02%|
 MegaMan-IceMan|4960/5512|89.99%|
 MegaManV-GyroMan|7384/8238|89.63%|
-MegaManIII-Wiley'sCastle-Level4|3773/4214|89.53%|Couldn't find MM
+MegaManIII-Wiley'sCastle-Level4|3773/4214|89.53%|Couldn't find MM, Boss Rush broken
 MegaManII-QuickMan|5132/5740|89.41%|
 MegaManIII-MagnetMan|4467/5032|88.77%|
 MegaMan10-PumpMan|4606/5190|88.75%|
@@ -70,7 +70,7 @@ MegaManIII-Wiley'sCastle-Level3|2528/2860|88.39%|
 MegaManIV-DrCossack'sCitadel-Level4|4191/4742|88.38%|
 MegaMan9-WilyCastle-Stage4|3315/3753|88.33%|
 MegaManIII-SparkMan|4234/4801|88.19%|
-MegaManVI-Wily'sCastle-Level4|1255/1429|87.82%|Couldn't find MM
+MegaManVI-Wily'sCastle-Level4|1255/1429|87.82%|Couldn't find MM, Boss Rush broken
 MegaMan-GutsMan|3738/4288|87.17%|
 MegaManV-CrystalMan|5744/6592|87.14%|
 MegaManIII-GeminiMan|3799/4370|86.93%|
@@ -108,11 +108,11 @@ MegaManIV-ToadMan|2541/4677|54.33%|Couldn't find MM
 MegaManII-DrWily-Level6|1151/2190|52.56%|
 MegaManIII-Wiley'sCastle-Level5|224/438|51.14%|
 MegaManII-DrWily-Level5|1155/2459|46.97%|
-MegaManV-Wily'sCastle-Level4|861/2566|33.55%|
+MegaManV-Wily'sCastle-Level4|861/2566|33.55%|Boss rush very broken, requires multiple tilesets.
 MegaManV-Wily'sCastle-Level3|907/3186|28.47%|
 MegaManIII-SnakeMan|1190/6300|18.89%|
 MegaManIV-DiveMan|1042/6771|15.39%|
-MegaManIII-DocRobot-ShadowManRevisited|390/5834|6.68%|
+MegaManIII-DocRobot-ShadowManRevisited|390/5834|6.68%|Score due to lack of Shadow Man tiles in Doc tileset.
 
 Failed tilesets (Mainly due to lack of tileset for the name):
 *MegaMan10-EndlessAttack
